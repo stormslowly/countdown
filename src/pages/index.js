@@ -80,9 +80,11 @@ const IndexPage = () => (
                         return <GridFiglet figlet={figlet}/>
                     }}</FigLetService>
 
-                    <FigLetService text={'happy  new  year'}>
+                    {seconds === 0 ? <FigLetService text={'happy  new  year'}>
                         {({figlet}) => <GridFiglet figlet={figlet}></GridFiglet>}
-                    </FigLetService>
+                    </FigLetService> : <FigLetService text={'to 2019'}>
+                        {({figlet}) => <GridFiglet figlet={figlet}></GridFiglet>}
+                    </FigLetService>}
                 </React.Fragment>
             }
         }</CountDownTimer>
