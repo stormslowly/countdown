@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "figlet": "^1.2.1",
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-manifest": "^2.0.9",
@@ -15,8 +16,10 @@
     "gatsby-transformer-sharp": "^2.1.8",
     "prop-types": "^15.6.2",
     "react": "16.7.0-alpha.2",
-    "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0"
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "16.7.0-alpha.2",
+    "react-helmet": "^5.2.0",
+    "superagent": "^4.1.0"
   },
   "keywords": [
     "gatsby"
